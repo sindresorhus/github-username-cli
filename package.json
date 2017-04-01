@@ -33,12 +33,12 @@
     "git"
   ],
   "dependencies": {
-    "github-username": "^3.0.0",
+    "github-username": "^4.0.0",
     "meow": "^3.7.0"
   },
   "devDependencies": {
     "ava": "*",
-    "execa": "^0.4.0",
+    "execa": "^0.6.3",
     "xo": "*"
   },
   "xo": {
