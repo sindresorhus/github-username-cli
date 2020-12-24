@@ -19,4 +19,6 @@ if (!email) {
 	process.exit(1);
 }
 
-githubUsername(email, cli.flags.token).then(console.log);
+(async () => {
+	console.log(await githubUsername(email, cli.flags.token));
+})();

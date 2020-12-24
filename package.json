@@ -1,47 +1,45 @@
 {
-  "name": "github-username-cli",
-  "version": "1.1.0",
-  "description": "Get a GitHub username from an email address",
-  "license": "MIT",
-  "repository": "sindresorhus/github-username-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": {
-    "github-username": "cli.js"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "github",
-    "user",
-    "username",
-    "email",
-    "address",
-    "gh",
-    "git"
-  ],
-  "dependencies": {
-    "github-username": "^4.0.0",
-    "meow": "^3.7.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "execa": "^0.6.3",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "github-username-cli",
+	"version": "1.1.0",
+	"description": "Get a GitHub username from an email address",
+	"license": "MIT",
+	"repository": "sindresorhus/github-username-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"bin": {
+		"github-username": "cli.js"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"github",
+		"user",
+		"username",
+		"email",
+		"address",
+		"gh",
+		"git"
+	],
+	"dependencies": {
+		"github-username": "^6.0.0",
+		"meow": "^8.0.0"
+	},
+	"devDependencies": {
+		"ava": "^2.4.0",
+		"execa": "^5.0.0",
+		"xo": "^0.36.1"
+	}
 }
