@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const githubUsername = require('github-username');
+import process from 'node:process';
+import meow from 'meow';
+import githubUsername from 'github-username';
 
 const cli = meow(`
 	Usage
@@ -10,7 +10,9 @@ const cli = meow(`
 	Example
 	  $ github-username sindresorhus@gmail.com
 	  sindresorhus
-`);
+`, {
+	importMeta: import.meta,
+});
 
 const email = cli.input[0];
 

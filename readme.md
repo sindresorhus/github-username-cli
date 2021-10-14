@@ -6,8 +6,8 @@
 
 ## Install
 
-```
-$ npm install --global github-username-cli
+```sh
+npm install --global github-username-cli
 ```
 
 ## Usage

@@ -10,11 +10,12 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
 	"bin": {
 		"github-username": "cli.js"
 	},
 	"engines": {
-		"node": ">=10"
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -34,12 +35,12 @@
 		"git"
 	],
 	"dependencies": {
-		"github-username": "^6.0.0",
-		"meow": "^8.0.0"
+		"github-username": "^7.0.0",
+		"meow": "^10.1.1"
 	},
 	"devDependencies": {
-		"ava": "^2.4.0",
-		"execa": "^5.0.0",
-		"xo": "^0.36.1"
+		"ava": "^3.15.0",
+		"execa": "^5.1.1",
+		"xo": "^0.45.0"
 	}
 }
