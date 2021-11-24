@@ -15,6 +15,7 @@ const cli = meow(`
 });
 
 const email = cli.input[0];
+const {token} = cli.flags;
 
 if (!email) {
 	console.error('Specify an email');
@@ -22,5 +23,5 @@ if (!email) {
 }
 
 (async () => {
-	console.log(await githubUsername(email, cli.flags.token));
+	console.log(await githubUsername(email, {token}));
 })();
