@@ -22,6 +22,4 @@ if (!email) {
 	process.exit(1);
 }
 
-(async () => {
-	console.log(await githubUsername(email, {token}));
-})();
+console.log(await githubUsername(email, {token}));

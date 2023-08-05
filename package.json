@@ -15,7 +15,7 @@
 		"github-username": "cli.js"
 	},
 	"engines": {
-		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+		"node": ">=16"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -35,12 +35,12 @@
 		"git"
 	],
 	"dependencies": {
-		"github-username": "^7.0.0",
-		"meow": "^10.1.2"
+		"github-username": "^8.0.0",
+		"meow": "^12.0.1"
 	},
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"execa": "^6.0.0",
-		"xo": "^0.46.4"
+		"ava": "^5.3.1",
+		"execa": "^7.2.0",
+		"xo": "^0.55.0"
 	}
 }
